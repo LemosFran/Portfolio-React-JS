@@ -1,4 +1,3 @@
-//import logo from './logo.svg';
 import './App.css';
 import Footer from './components/public/Footer';
 import Main from './components/public/Main';
@@ -8,7 +7,6 @@ import {Routes, BrowserRouter, Route } from "react-router-dom";
 
 //routes del switch
 import { Details } from './components/public/Details';
-import UserForm from './components/public/UserForm';
 
 function App() {
   return (
@@ -20,7 +18,6 @@ function App() {
 <Routes>
   <Route path="/" element={<Main />} />
   <Route path="/detail/:id" element={<Details />} />  
-   <Route path="/user-form" element={<UserForm />} />
 </Routes>
 
   

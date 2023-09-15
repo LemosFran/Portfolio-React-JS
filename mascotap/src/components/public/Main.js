@@ -4,7 +4,7 @@ import RyMServices from '../../sevices/RyM.services';
 import Details from './Details';
 
 
-export class Main extends Component { //con extend toma prestaada una func de react
+export class Main extends Component { 
 
     constructor(props)
     {
@@ -13,12 +13,7 @@ export class Main extends Component { //con extend toma prestaada una func de re
         
     }
 
-    // componentDidMount()//funcion asincrona //PARA USAR EL HOOK useEffect SE ELIMINA ESTE METODO
-    // {
-    //   //pasar al cuaderno, se me termino la pila. lo ultimo de cards tambien y despues se va a cartas
-    //     RyMServices.getAllCharacters().then((data)=>this.setState({mascotas: data.results}))
-    //     .catch((error)=>console.log(error));
-    // }
+   
 
   render() {
    

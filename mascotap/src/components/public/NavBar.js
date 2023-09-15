@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
 
 const NavBar = () => {
   return (
@@ -31,7 +31,7 @@ const NavBar = () => {
 
         
            <div className="text-end">
-            {/* <Link to={"user-form"} className="btn btn-outline-light mx-2">Registrarme</Link> */}
+        
             <button type="button" className="btn btn-outline-light mx-2">Registrarme</button>
             <button type="button" className="btn btn-warning">Ingresar</button>
           </div>

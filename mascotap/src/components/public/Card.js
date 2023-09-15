@@ -14,9 +14,9 @@ const Card = ({mascota}) => {
         <div class="d-flex justify-content-between align-items-center">
           <div class="btn-group">
           <Link to={`/detail/${mascota.id}`} className="btn btn-sm btn-outline-info">Detalles</Link>
-            {/* <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> */}
+          
           </div>
-          {/* <small class="text-body-secondary">9 mins</small> */}
+          
         </div>
       </div>
     </div>

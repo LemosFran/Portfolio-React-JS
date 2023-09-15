@@ -15,7 +15,7 @@
         RyMServices.getCharacterById(id).then((data) => setMascota(data))
         .catch((error)=>console.log("error", error));
       }, []);
-    //   SE PUEDE PRESCINDIR DE "id" PERO NO DE LOS [], SINO ENTRA EN UN BUCLE INFINITO
+    
 
     return (
 

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Card from './Card'
 import RyMServices from '../../sevices/RyM.services';
 
-const Cards = () => { //PARA EL HOOK useEffect SE BORRA EL PARAMETRO ({MASCOTAS})
+const Cards = () => { 
 
   //SE CREA UN USESTATE
   const [mascotas, setMascotas] = useState([]); 
@@ -16,10 +16,8 @@ const Cards = () => { //PARA EL HOOK useEffect SE BORRA EL PARAMETRO ({MASCOTAS}
     
   }, [mascotas])
 
- // console.log("props" + JSON.stringify(props)); //convertimos un props en un string osea llegan todos los personajes/mascotas juntos pasar al cuaderno
- const cardList = mascotas.map((m)=> <Card mascota={m} key={m.id} />);//ATENCION A LA SINTAXIS PARA LLAMAR LOS DATOS
+ const cardList = mascotas.map((m)=> <Card mascota={m} key={m.id} />);
 
- //  const cardList = mascotas.map((m)=> {console.log(m.id); return<Card mascota={m} key={m.id} />}); PARA VERIFICAR QUE LLEGUE EL ID
  return (
   
      <div class="album py-5 bg-body-tertiary">
