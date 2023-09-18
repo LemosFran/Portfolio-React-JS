@@ -1,6 +1,6 @@
 # Rick & Morty Album
 
-![Rick & Morty Logo](https://pngimg.com/d/rick_morty_PNG34.png)
+![Rick & Morty Logo](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.Rsug9KZUdhqB241h2nd5UQAAAA%26pid%3DApi&f=1&ipt=9de011d5f86ed80a092f5df27aff7b83960af9e54c71e4a8a48e4db486d9cea5&ipo=images)
 
 ## Descripción del Proyecto
 
