@@ -1,6 +1,6 @@
 # Rick & Morty Album
 
-![Rick & Morty Logo](rymVerde3.png)
+![Rick & Morty Logo](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.kindpng.com%2Fpicc%2Fm%2F26-261806_rick-y-morty-png-transparent-png.png&f=1&nofb=1&ipt=ef0c24c17428cf1335addc2a11eec4c253e32a2ecf06df4c3b305c4892b77c92&ipo=images)
 
 ## Descripción del Proyecto
 
